@@ -3,8 +3,8 @@ import LinkButton from './LinkButton'
 
 function Links() {
     return (
-        <div>
-            <LinkButton name="@mercy" id="twitter" link="" />
+        <div className='linkssection'>
+            <LinkButton name="Twitter Link" id="twitter" link="" />
             <LinkButton name="Zuri Team" id="btn__zuri" link="https://training.zuri.team/" />
             <LinkButton name="Zuri Books" id="books" link="http://books.zuri.team/" />
             <LinkButton name="Python Books" id="book__python" link="https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>," />
