@@ -4,6 +4,7 @@ import Profile from './components/Profile';
 
 import './App.css';
 import Socialicon from './components/Socialicon';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function App() {
       <Profile />
       <Links />
       <Socialicon />
+      <Footer />
 
     </div>
   );

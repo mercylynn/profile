@@ -55,3 +55,67 @@ code {
 .name {
   text-align: center;
 }
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.logoimage {
+  height: 40px;
+  margin-top: 15px;
+}
+
+.footer {
+  border-top: 1px solid lightgray;
+  width: 85%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer:hover {
+  cursor: pointer;
+}
+
+.footer p {
+  color: gray;
+  padding-top: 10px;
+}
+
+.share {
+  height: 20px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: 30%;
+  display: block;
+}
+
+.share:hover {
+  cursor: pointer;
+}
+
+@media (max-width:480px) {
+  .icons {
+    margin-left: 33%;
+  }
+
+  .footer {
+    border-top: 1px solid lightgray;
+    width: 85%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+  }
+
+  .logoimage {
+    height: 40px;
+    width: 200px;
+    margin-top: 15px;
+  }
+}
